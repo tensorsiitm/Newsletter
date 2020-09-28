@@ -1,0 +1,21 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "newsletter app using Mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "engines": {
+    "node": "12.18.3"
+  },
+  "author": "Faseeh Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
