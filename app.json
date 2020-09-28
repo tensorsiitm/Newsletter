@@ -1,4 +1,6 @@
 {
     "name": "Tensors Newsletter",
-    "description": "Tensors newsletter that is linked to mailchimp"
+    "description": "Tensors newsletter that is linked to mailchimp",
+    "repository": "https://github.com/tensorsiitm/Newsletter",
+    "keywords": ["node, express, static"]
 }
