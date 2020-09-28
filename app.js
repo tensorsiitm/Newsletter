@@ -35,10 +35,10 @@ app.post('/subscribe', (req, res) => {
 
     const postData = JSON.stringify(data);
 
-    fetch('https://us2.api.mailchimp.com/3.0/lists/aac6730710', {
+    fetch('https://us2.api.mailchimp.com/3.0/lists/fd87ede4f7', {
         method: 'POST',
         headers: {
-        Authorization: 'auth a3d91a4632395655f44a157146b71a0f-us2'
+        Authorization: 'auth fda09fc278d8022a1a84e7598e829579-us2'
         },
         body: postData
     })
