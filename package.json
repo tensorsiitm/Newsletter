@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "newsletter app using Mailchimp",
   "main": "app.js",
+  "homepage": "http://{Github-username}.github.io/{Github-repo-name}",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "start": "node app",
     "dev": "nodemon app"
   },
