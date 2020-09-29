@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "newsletter app using Mailchimp",
   "main": "app.js",
-  "homepage": "http://{Github-username}.github.io/{Github-repo-name}",
+  "homepage": "http://tensorsiitm.github.io/Newsletter",
   "scripts": {
     "predeploy": "npm run build",
     "deploy":"gh-pages -d build",
