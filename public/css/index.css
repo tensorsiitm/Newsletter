@@ -3,7 +3,11 @@ body {
 }
 
 h1, p {
-    color: rgb(38,35,35);
+    color: rgb(9, 84, 96);
+}
+
+h1 {
+    font-family: 'Niconne', cursive;
 }
 
 img {
