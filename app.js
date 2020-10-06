@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 //Subscribe Route
 app.post('/subscribe', (req, res) => {
-    const { firstName, lastName, email} = req.body;
+    const { firstName, lastName, email, phone} = req.body;
     //Make Sure Filled
     if(!firstName || !lastName || !email) {
         res.redirect('/fail.html')
@@ -27,7 +27,8 @@ app.post('/subscribe', (req, res) => {
                 status: 'subscribed',
                 merge_fields: {
                     FNAME: firstName,
-                    LNAME: lastName
+                    LNAME: lastName,
+                    PHONE: phone
                 }
             }
         ]
